@@ -24,10 +24,10 @@ span{
     color:rgb(33,180,115);
 }
 .writings{
-    padding-left: 150px;
+    padding-left: 120px;
 }
 .button1{
-    height: 50px;
+    height: 40px;
     width: 150px;
     background-image: linear-gradient(to bottom,lightgreen,rgba(5, 182, 5, 0.76));
     border:none;
@@ -75,4 +75,16 @@ h6{
 }
 .test{
       margin-left: 220px;
+}
+footer{
+    background-color: #282531;
+    height: auto;
+    color:white;
+    font-size: small;
+}
+.ftr-pad{
+    padding: 10px 10px;
+}
+li{
+    list-style: none;
 }
