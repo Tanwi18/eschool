@@ -27,13 +27,16 @@ span{
     padding-left: 120px;
 }
 .button1{
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 120px;
     background-image: linear-gradient(to bottom,lightgreen,rgba(5, 182, 5, 0.76));
     border:none;
     border-radius: 40px;
     font-weight: 400;
     color: white;
+}
+.button1:hover{
+    transform: scale(1.1);
 }
 h5{
     color: red;
@@ -51,7 +54,7 @@ h6{
 }
 .background1{
    
-    box-shadow: 8px 8px 13px lightgray;
+   
     border-radius: 10px;
 }
 .text{
@@ -73,6 +76,12 @@ h6{
     border: none;
     box-shadow: 8px 8px 13px lightgray;
 }
+    
+.books:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 20px lightgray;
+}
+
 .test{
       margin-left: 220px;
 }
@@ -87,4 +96,7 @@ footer{
 }
 li{
     list-style: none;
+}
+#books-height{
+    height: 80%;
 }
